@@ -3,3 +3,72 @@
 @charset "UTF-8";
 
 @import "main";
+
+.navbar-brand{
+    margin-top: 10px;
+    
+}
+
+.navbar{
+    margin-top: 30px;
+}
+
+.navbar-nav{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 10pt
+}
+
+.tekstonderdeel{
+    margin-left: 150px;
+    width: 80%
+}
+
+.titel{
+    color: #efca16;
+    font-size: 25pt;
+    margin-top: 110px
+
+}
+
+.ondertitel{
+    font-size: 16pt
+}
+
+.tekst{
+    font-size: 10pt
+}
+
+.coverphoto{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    color: yellow
+}
+
+.fas{
+    color: yellow
+}
+
+.logografisch{
+    text-align: center;
+    width: 100%;
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+    margin-left: 60px
+}
+
+.detail{
+    width: 60%;
+    margin-top: 150px;
+    margin-left: 200px
+}
+
+
