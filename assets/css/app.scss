@@ -9,6 +9,7 @@
     
 }
 
+
 .navbar{
     margin-top: 30px;
 }
@@ -16,31 +17,40 @@
 .navbar-nav{
     margin-top: 30px;
     margin-left: 70px;
-    font-size: 10pt
+    font-size: 14pt
 }
 
+
 .tekstonderdeel{
-    margin-left: 150px;
-    width: 80%
+    width:100%;
+    margin-left: 100px
 }
 
 .titel{
     color: #efca16;
-    font-size: 25pt;
-    margin-top: 110px
+    font-size: 50pt;
+    margin-top: 110px;
+    margin-bottom: 80px;
+    text-align: center
 
 }
 
 .ondertitel{
-    font-size: 16pt
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center
 }
 
 .tekst{
-    font-size: 10pt
+    font-size: 15pt;
+    line-height: 35px;
+    color: dimgrey;
+    text-align: left
 }
 
-.coverphoto{
+.cover{
     width: 100%;
+    background-image: url("images/voorbeelden/Cover.jpg") ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

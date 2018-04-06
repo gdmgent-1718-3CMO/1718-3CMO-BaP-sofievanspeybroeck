@@ -4,12 +4,12 @@
 - name: Home
   description: Home
   # folder: pages/
-  permalink: / 
-  # fa-icon: icon-info
+  permalink: Home/ 
+  # fa-icon: home-info
 
 - name: Logo
   description: Logo
-  folder: pages/logo/
+  #folder: pages/
   permalink: logo/
   # fa-icon: icon-graduation-cap
 
@@ -25,8 +25,9 @@
   permalink: /stijlgids
   # fa-icon: icon-info
 
-- name: Merk
-  description: Merk
-  # folder: pages/merk
-  permalink: /merk
-  # fa-icon: icon-info
+- name: Toepassingen
+  description: Toepassingen
+  # folder: pages/toepassingen
+  permalink: /toepassingen
+  # fa-icon: toepassingen-info
+
