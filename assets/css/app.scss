@@ -73,29 +73,6 @@
     width: 100%
 }
 
-.heading{
-    background: url(../../images/voorbeelden/girl.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%
-}
-
-.headinghome{
-    width: 100%;
-    margin-top: 30px
-}
-
-.covertitelheading{
-    color: #efca16;
-    font-size: 60pt;
-    position: absolute;
-    margin-top: -400px;
-    margin-left: 17%;
-    font-weight: bold;
-    text-align: left;
-    line-height: 70px
-}
-
 
 .titel{
     color: #efca16;
@@ -117,8 +94,8 @@
     line-height: 35px;
     color: dimgrey;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 50px
 }
 
@@ -129,7 +106,489 @@
     
 }
 
-.footer1{
+.footer{
+    height: 100px;
+    padding: 30px;
+    background-color: #efca16;
+    color: white;
+    position: absolute;
+}
+
+
+.footertekst{
+    text-align: center
+}
+
+.fas{
+    background: blue;
+    position: absolute;
+    bottom: 100px
+}
+
+#to-top{
+    background-color: rgb(239, 202, 22);
+    position: absolute;
+    bottom: 160px
+}
+
+#to-top:hover{
+    background: rgb(247, 163, 28)
+}
+
+.fa-angle-up{
+    color: white
+}
+
+.logografisch{
+    text-align: center;
+    width: 60%;
+    margin: 100px
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+}
+
+.detail{
+    width: 60%;
+    margin-top: 150px;
+    margin-left: 200px
+}
+
+.vierkant{
+    outline:2px solid lightgray;
+    margin-left: 50px;
+    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px
+
+}
+
+.overzichtlogo{
+    width: 400px;
+
+}
+
+.overzicht{
+    font-size: 15pt;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.overzichttekst{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-left: 80px;
+    margin-right: 70px
+
+
+}
+
+.overzichtondertitel{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-left: 80px;
+    margin-right: 70px
+}
+
+.knopmeer{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.knopmeer:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+
+.overzichtkleur{
+    width: 90%;
+    margin-bottom: 20px
+}
+
+.overzichttekstkleur{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 70px;
+    margin-left: 80px
+
+
+}
+
+.overzichtondertitelkleur{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-right: 70px;
+    margin-left: 80px
+}
+
+.knopmeerkleur{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -380px
+}
+
+.knopmeerkleur:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttekstpers{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-left: 80px;
+    margin-right: 70px
+
+
+}
+
+.overzichtondertitelpers{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-left: 80px;
+    margin-right: 70px
+
+}
+
+.knopmeerpers{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -150px
+}
+
+.knopmeerpers:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtteksttypo{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-left: 80px;
+    margin-right: 70px
+
+
+}
+
+.overzichtondertiteltypo{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-left: 80px;
+    margin-right: 70px
+
+}
+
+.overzichtpers{
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.overzichttypo{
+    width:90%
+}
+
+.knopmeertypo{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -630px
+}
+
+.knopmeertypo:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtstyle{
+    width: 90%;
+}
+
+.overzichttekststyle{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 70px;
+    margin-left: 80px
+
+
+}
+
+.overzichtondertitelstyle{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-right: 70px;
+    margin-left: 80px
+
+}
+
+.knopmeerstyle{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -750px
+}
+
+.knopmeerstyle:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttoepassingen{
+    margin-bottom: 20px
+}
+
+.overzichtteksttoepassingen{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 70px;
+    margin-left: 80px
+
+
+}
+
+.overzichtondertiteltoepassingen{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-right: 70px;
+    margin-left: 80px
+
+}
+
+.knopmeertoepassingen{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -550px
+}
+
+.knopmeertoepassingen:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttoepassingen{
+    width: 100%;
+}
+
+.logo1{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.logo2{
+    margin-top: 50px;
+    width:100%;
+    margin-bottom: 50px
+}
+
+.logo3{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.logo4{
+    width: 100%;
+    margin-bottom: 80px
+}
+
+.detail{
+    width: 80%;
+    margin-bottom: 100px;
+    margin-left: 0px
+}
+
+.gebruikdetail{
+    width: 100%;
+    margin-left: -100px;
+    margin-bottom: 80px
+}
+
+.logogebruik{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px
+}
+
+.notdone{
+    width: 100%;
+}
+
+.kleur1{
+    margin-top: 100px;
+    width: 100%
+}
+
+.kleur2{
+    margin-top: 100px;
+    background-color: #eec915;
+}
+
+
+.kleur3{
+    margin-top: 50px;
+    background-color: #ee952a ;
+}
+
+.kleur4{
+    margin-top: 50px;
+    background-color: #55a539 ;
+}
+
+.kleur5 {
+    margin-top: 50px;
+    background-color: #3f6c81 ;
+}
+
+.mapkleur{
+    width: 100%;
+    margin-top: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:800px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+.navbar-brand{
+    margin-top: 10px;
+    
+}
+
+.content{
+    padding: 0px;
+    width: 100%
+}
+
+.cover{
+    width: 100%;
+    height: 100%
+
+}
+
+.coverlogo{
+    position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 35%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.covertitel{
+    font: Barlow;
+    font-size: 40pt;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    color: white
+
+}
+
+.covertekst{
+    font: Barlow;
+    font-size: 30pt;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    color: white;
+    margin-top: 50px
+}
+
+.navbar{
+    margin-top: 30px;
+}
+
+.navbar-nav{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 14pt;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.container-fluid{
+    width: 100%
+}
+
+
+.titel{
+    color:#efca16;
+    font-size: 50pt;
+    margin-top: 110px;
+    text-align: center;
+
+}
+
+.ondertitel{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tekst{
+    font-size: 18pt;
+    line-height: 35px;
+    color: dimgrey;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px
+}
+
+.footer{
+    height: 100px;
+    padding: 30px;
+    background-color: green
+    
+}
+
+.footer{
     height: 100px;
     padding: 30px;
     background-color: #efca16;
@@ -171,7 +630,6 @@
 .logo{
     width: 40%;
     text-align: center;
-    margin-left: 60px
 }
 
 .detail{
@@ -184,20 +642,20 @@
     outline:2px solid lightgray;
     margin-left: 50px;
     padding: 0px;
-    margin-left: 300px;
-    margin-right: 300px
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px
 
 }
 
 .overzichtlogo{
     width: 400px;
-    margin-left: 100px
 
 }
 
 .overzicht{
     font-size: 15pt;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
 
 }
@@ -206,8 +664,8 @@
     text-align: left;
     font-size: 18pt;
     color: dimgrey;
-    margin-left: 200px;
-    margin-right: 50px
+    margin-left: 80px;
+    margin-right: 70px
 
 
 }
@@ -216,8 +674,8 @@
     text-align: left;
     font-weight: bold;
     font-size: 25pt;
-    margin-top: 40px;
-    margin-left: 200px
+    margin-left: 80px;
+    margin-right: 70px
 }
 
 .knopmeer{
@@ -226,7 +684,6 @@
     margin-bottom: 30px;
     text-align: left;
     margin-top: 30px;
-    margin-left: -360px
 }
 
 .knopmeer:hover{
@@ -236,15 +693,16 @@
 
 
 .overzichtkleur{
-    width: 80%
+    width: 90%;
+    margin-bottom: 20px
 }
 
 .overzichttekstkleur{
     text-align: left;
     font-size: 18pt;
     color: dimgrey;
-    margin-right: 50px;
-    margin-left: 100px
+    margin-right: 70px;
+    margin-left: 80px
 
 
 }
@@ -253,8 +711,8 @@
     text-align: left;
     font-weight: bold;
     font-size: 25pt;
-    margin-top: 40px;
-    margin-left: 100px
+    margin-right: 70px;
+    margin-left: 80px
 }
 
 .knopmeerkleur{
@@ -275,8 +733,8 @@
     text-align: left;
     font-size: 18pt;
     color: dimgrey;
-    margin-right: 50px;
-    margin-left: 100px
+    margin-left: 80px;
+    margin-right: 70px
 
 
 }
@@ -285,8 +743,8 @@
     text-align: left;
     font-weight: bold;
     font-size: 25pt;
-    margin-top: 40px;
-    margin-left: 100px
+    margin-left: 80px;
+    margin-right: 70px
 
 }
 
@@ -308,7 +766,8 @@
     text-align: left;
     font-size: 18pt;
     color: dimgrey;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 70px
 
 
 }
@@ -317,7 +776,8 @@
     text-align: left;
     font-weight: bold;
     font-size: 25pt;
-    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 70px
 
 }
 
@@ -336,16 +796,15 @@
 }
 
 .overzichtstyle{
-    width: 40%;
-    margin-left: -390px
+    width: 90%;
 }
 
 .overzichttekststyle{
     text-align: left;
     font-size: 18pt;
     color: dimgrey;
-    margin-right: 50px;
-    margin-left: -300px
+    margin-right: 70px;
+    margin-left: 80px
 
 
 }
@@ -354,8 +813,391 @@
     text-align: left;
     font-weight: bold;
     font-size: 25pt;
-    margin-top: 40px;
-    margin-left: -300px
+    margin-right: 70px;
+    margin-left: 80px
+
+}
+
+.knopmeerstyle{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -750px
+}
+
+.knopmeerstyle:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttoepassingen{
+    margin-bottom: 20px
+}
+
+.overzichtteksttoepassingen{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 70px;
+    margin-left: 80px
+
+
+}
+
+.overzichtondertiteltoepassingen{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-right: 70px;
+    margin-left: 80px
+
+}
+
+.knopmeertoepassingen{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -550px
+}
+
+.knopmeertoepassingen:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttoepassingen{
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+
+
+
+
+.content{
+    padding: 0px;
+    width: 100%
+}
+
+.cover{
+    width: 100%;
+    height: 100%
+
+}
+
+.coverlogo{
+    position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 35%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.covertitel{
+    font: Barlow;
+    font-size: 40pt;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    color: white
+
+}
+
+.covertekst{
+    font: Barlow;
+    font-size: 30pt;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    color: white;
+    margin-top: 50px
+}
+
+
+
+
+
+.titel{
+    color: #efca16;
+    font-size: 50pt;
+    margin-top: 110px;
+    text-align: center;
+
+}
+
+.ondertitel{
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tekst{
+    font-size: 18pt;
+    line-height: 35px;
+    color: dimgrey;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px
+}
+
+.footer{
+    height: 100px;
+    padding: 30px;
+    background-color: green
+    
+}
+
+.footer{
+    height: 100px;
+    padding: 30px;
+    background-color: #efca16;
+    color: white;
+    position: absolute;
+}
+
+
+.footertekst{
+    text-align: center
+}
+
+.fas{
+    background: blue;
+    position: absolute;
+    bottom: 100px
+}
+
+#to-top{
+    background-color: rgb(239, 202, 22);
+    position: absolute;
+    bottom: 160px
+}
+
+#to-top:hover{
+    background: rgb(247, 163, 28)
+}
+
+.fa-angle-up{
+    color: white
+}
+
+.logografisch{
+    text-align: center;
+    width: 30%;
+    margin: 100px
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+}
+
+.detail{
+    width: 60%;
+    margin-top: 150px;
+    margin-left: 200px
+}
+
+.vierkant{
+    outline:2px solid lightgray;
+    margin-left: 50px;
+    padding-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px
+
+}
+
+.overzichtlogo{
+    width: 400px;
+
+}
+
+.overzicht{
+    font-size: 15pt;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.overzichttekst{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 100px
+
+
+}
+
+.overzichtondertitel{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 100px;
+}
+
+.knopmeer{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.knopmeer:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+
+.overzichtkleur{
+    width: 90%;
+    margin-top: 40px
+}
+
+.overzichttekstkleur{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+    margin-left: 100px
+
+
+}
+
+.overzichtondertitelkleur{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 20px;
+    margin-left: 100px
+}
+
+.knopmeerkleur{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.knopmeerkleur:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtpers{
+    width: 100%;
+    margin-top: 50px
+}
+
+.overzichttekstpers{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 80px;
+    margin-left: 100px
+
+
+}
+
+.overzichtondertitelpers{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-left: 100px
+
+}
+
+.knopmeerpers{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.knopmeerpers:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtteksttypo{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+    margin-top: 40px
+
+
+}
+
+.overzichttypo{
+    width: 80%;
+}
+
+.overzichtondertiteltypo{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 100px;
+
+}
+
+.knopmeertypo{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -630px
+}
+
+.knopmeertypo:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtstyle{
+    width:60%;
+}
+
+.overzichttekststyle{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+
+
+}
+
+.overzichtondertitelstyle{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 120px;
 
 }
 
@@ -408,4 +1250,113 @@
 
 .overzichttoepassingen{
     width: 100%;
+    margin-top: 50px
+}
+
+.logo1{
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 300px
+}
+
+.logo2{
+    margin-top: 50px;
+    width:60%;
+    margin-right: 300px
+}
+
+.logo3{
+    width: 60%;
+    margin-left: 300px;
+    margin-bottom: 150px
+}
+
+.logo4{
+    width: 60%;
+    margin-right: 300px;
+    margin-bottom: 150px
+}
+
+.detail{
+    width: 40%;
+    margin-bottom: 100px;
+    margin-right: 60px
+}
+
+.gebruikdetail{
+    width: 900px;
+    margin-bottom: 150px
+}
+
+.logogebruik{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 150px
+}
+
+.notdone{
+    width: 80%;
+    margin-left: 30px
+}
+
+.kleur1{
+    margin-top: 100px;
+    width: 50%
+}
+
+.kleur2{
+    margin-top: 100px;
+    background-color: #eec915;
+}
+
+
+.kleur3{
+    margin-top: 50px;
+    background-color: #ee952a ;
+}
+
+.kleur4{
+    margin-top: 50px;
+    background-color: #55a539 ;
+}
+
+.kleur5 {
+    margin-top: 50px;
+    background-color: #3f6c81 ;
+}
+
+.mapkleur{
+    width: 50%;
+    margin-top: 100px
+}
+
+.typografie{
+    width: 50%;
+    margin-left: 100px
+}
+
+.kaart{
+    width: 50%;
+    margin-top: 100px
+}
+
+.persoonlijkheid{
+    width: 50%;
+    margin-top: 100px
+}
+
+.flyer{
+    width: 50%;
+    margin-left: 500px
+}
+
+.knopdownload{
+    margin-left: -700px;
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
 }
