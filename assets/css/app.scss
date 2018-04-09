@@ -4,11 +4,53 @@
 
 @import "main";
 
+
+
 .navbar-brand{
     margin-top: 10px;
     
 }
 
+.content{
+    padding: 0px;
+    width: 100%
+}
+
+.cover{
+    width: 100%;
+    height: 100%
+
+}
+
+.coverlogo{
+    position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 35%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.covertitel{
+    font: Barlow;
+    font-size: 40pt;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    color: white
+
+}
+
+.covertekst{
+    font: Barlow;
+    font-size: 30pt;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    color: white;
+    margin-top: 50px
+}
 
 .navbar{
     margin-top: 30px;
@@ -17,56 +59,107 @@
 .navbar-nav{
     margin-top: 30px;
     margin-left: 70px;
-    font-size: 14pt
+    font-size: 14pt;
+}
+
+.container {
+    position: relative;
+    text-align: center;
 }
 
 
-.heading{
+
+.container-fluid{
     width: 100%
 }
 
-
-.tekstonderdeel{
-    width:100%;
-    margin-left: 100px
+.heading{
+    background: url(../../images/voorbeelden/girl.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%
 }
+
+.headinghome{
+    width: 100%;
+    margin-top: 30px
+}
+
+.covertitelheading{
+    color: #efca16;
+    font-size: 60pt;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 17%;
+    font-weight: bold;
+    text-align: left;
+    line-height: 70px
+}
+
 
 .titel{
     color: #efca16;
     font-size: 50pt;
     margin-top: 110px;
-    margin-bottom: 80px;
-    text-align: center
+    text-align: center;
 
 }
 
 .ondertitel{
     font-size: 18pt;
     font-weight: bold;
-    text-align: center
+    text-align: center;
+    margin-top: 80px;
 }
 
 .tekst{
-    font-size: 15pt;
+    font-size: 18pt;
     line-height: 35px;
     color: dimgrey;
-    text-align: left
-}
-
-.cover{
-    width: 100%;
-    background-image: url("images/voorbeelden/Cover.jpg") ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px
 }
 
 .footer{
-    color: yellow
+    height: 100px;
+    padding: 30px;
+    background-color: green
+    
+}
+
+.footer1{
+    height: 100px;
+    padding: 30px;
+    background-color: #efca16;
+    color: white;
+    position: absolute;
+}
+
+
+.footertekst{
+    text-align: center
 }
 
 .fas{
-    color: yellow
+    background: blue;
+    position: absolute;
+    bottom: 100px
+}
+
+#to-top{
+    background-color: rgb(239, 202, 22);
+    position: absolute;
+    bottom: 160px
+}
+
+#to-top:hover{
+    background: rgb(247, 163, 28)
+}
+
+.fa-angle-up{
+    color: white
 }
 
 .logografisch{
@@ -86,4 +179,232 @@
     margin-left: 200px
 }
 
+.vierkant{
+    outline:2px solid lightgray;
+    margin-left: 50px;
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 300px
 
+}
+
+.overzichtlogo{
+    width: 400px;
+    margin-left: 100px
+
+}
+
+.overzicht{
+    font-size: 15pt;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+.overzichttekst{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-left: 200px;
+    margin-right: 50px
+
+
+}
+
+.overzichtondertitel{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 40px;
+    margin-left: 200px
+}
+
+.knopmeer{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -360px
+}
+
+.knopmeer:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+
+.overzichtkleur{
+    width: 80%
+}
+
+.overzichttekstkleur{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+    margin-left: 100px
+
+
+}
+
+.overzichtondertitelkleur{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 40px;
+    margin-left: 100px
+}
+
+.knopmeerkleur{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -380px
+}
+
+.knopmeerkleur:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttekstpers{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+    margin-left: 100px
+
+
+}
+
+.overzichtondertitelpers{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 40px;
+    margin-left: 100px
+
+}
+
+.knopmeerpers{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -150px
+}
+
+.knopmeerpers:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtteksttypo{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+
+
+}
+
+.overzichtondertiteltypo{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 40px;
+
+}
+
+.knopmeertypo{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -630px
+}
+
+.knopmeertypo:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtstyle{
+    width: 40%;
+    margin-left: -390px
+}
+
+.overzichttekststyle{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+    margin-left: -300px
+
+
+}
+
+.overzichtondertitelstyle{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 40px;
+    margin-left: -300px
+
+}
+
+.knopmeerstyle{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -750px
+}
+
+.knopmeerstyle:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichtteksttoepassingen{
+    text-align: left;
+    font-size: 18pt;
+    color: dimgrey;
+    margin-right: 50px;
+    margin-left: 100px
+
+
+}
+
+.overzichtondertiteltoepassingen{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-top: 40px;
+    margin-left: 100px
+
+}
+
+.knopmeertoepassingen{
+    background-color: rgb(239, 202, 22);
+    border: none;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -550px
+}
+
+.knopmeertoepassingen:hover{
+    background-color: rgb(247, 163, 28);
+    border: none
+}
+
+.overzichttoepassingen{
+    width: 100%;
+}

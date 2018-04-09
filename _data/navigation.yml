@@ -15,8 +15,20 @@
 
 - name: Kleur
   description: Kleur
-  folder: pages/kleur/
+  #folder: pages/kleur/
   permalink: kleur/i
+  # fa-icon: icon-info
+
+- name: Typografie
+  description: Typografie
+  #folder: pages/
+  permalink: typografie
+  # fa-icon: icon-info
+
+- name: Persoonlijkheid
+  description: Persoonlijkheid
+  #folder: pages/kleur/
+  permalink: persoonlijkheid
   # fa-icon: icon-info
 
 - name: Styleguide
