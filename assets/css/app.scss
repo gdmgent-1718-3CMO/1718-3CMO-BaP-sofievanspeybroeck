@@ -18,6 +18,13 @@
     
 }
 
+.navbar:active {
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: white
+}
+
 .content{
     padding: 0px;
     width: 100%
@@ -964,8 +971,6 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-
-
 
 
 .content{

@@ -38,7 +38,7 @@ a {
         border-bottom: solid 1px $body-link;
     }
     &:active{
-        background-color: $body-link;
+        background-color: white;
         color: $color-white;
     }
     &:focus{}
@@ -58,7 +58,6 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
         margin-right: 18px;
     }    
   }
@@ -80,7 +79,7 @@ main ol {
         padding: 3px 6px;
         margin-right: 5px;
         border-radius: 5px;
-        background-color: $mycolor-5;
+
         color: $color-white;
         font-family: $myfont-family-title;
         font-weight: $font-weight-bold;
@@ -92,8 +91,12 @@ main ol {
 button, a.btn {
     
     &:hover{}
-    &:active{}
-    &:focus{}
+    &:active{
+        background-color: white
+    }
+    &:focus{
+        background-color: white
+    }
 }
 input[type=text], textarea {
 
